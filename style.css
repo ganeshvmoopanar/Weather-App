@@ -8,7 +8,6 @@ body {
    transition: background-image 1s;
 }
 
-
 @keyframes jiggle {
   0% {
     transform: rotate(-1deg);
@@ -29,7 +28,6 @@ body {
   animation: jiggle 3s infinite; 
 }
 
- 
  .info-container {
    margin-right: 15px;
    text-shadow: 0 0 10px rgb(252, 252, 247); 
@@ -130,9 +128,6 @@ body {
   color: #555;
 }
 
-
-
-
  footer {
    text-align: center;
    background-image: linear-gradient(to right, #0e1b31, #2d2538);
@@ -179,8 +174,8 @@ body {
 }
 
 #search-btn:not(:hover){
-  transition: background-color 2s ease, color 2s ease, transform 2s ease; /* Add transform to the transition */
-  transform: scale(1); /* Reset the scale when not hovering */
+  transition: background-color 2s ease, color 2s ease, transform 2s ease; 
+  transform: scale(1); 
 }
 
 footer {
@@ -196,7 +191,7 @@ footer {
  footer > p {
   margin: 2rem;
   color: white;
-  transition: transform 0.3s ease-in-out; /* Add transition for smooth effect */
+  transition: transform 0.3s ease-in-out; 
 }
 
 footer i {
