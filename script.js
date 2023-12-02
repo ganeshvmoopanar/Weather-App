@@ -67,7 +67,8 @@ function updateBackground(element, weatherDescription) {
         'drizzle': 'url("drizzle.jpeg")',
         'shower rain': 'url("drizzle.jpeg")',
         'mist': 'url("mist.jpeg")', 
-        'smoke': 'url("smoke.avif")', 
+        'smoke': 'url("smoke.avif")',
+        'haze': 'url("haze.jpeg")',
     };
 
     // Set the background based on the weather description
